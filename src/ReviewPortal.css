@@ -1,0 +1,40 @@
+.reviewPortal{
+    margin: 30px 10%;
+}
+.reviews{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    min-height: 250px;
+    max-height: 500px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.reviews::-webkit-scrollbar{
+    display: none;
+}
+.postreview{
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+}
+button{
+    color: white;
+    margin-top: 10px;
+    background-color: #EA5455;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+}
+textarea{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    padding: 5px;
+    outline: none;
+}
+.reviews > p{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0 auto;
+    margin-top: 8%;
+}

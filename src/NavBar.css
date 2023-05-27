@@ -1,0 +1,108 @@
+.NavBar{
+    display: flex;
+    justify-content: space-between;
+    padding:5px 40px;
+    padding-top: 10px;
+    align-items: center;
+    border-bottom: solid 1px lightgray;
+    position: sticky;
+    z-index: 100;
+    top: 0;
+    background-color: white;
+}
+.search{
+  display: flex;
+  flex: 1;
+  align-items: center;
+  max-width: fit-content;
+  height: 35px;
+  padding: 10px;
+  padding-left: 0;
+  border: 1px solid lightgray;
+  border-radius: 999px;
+  margin: 0% 20px;
+}
+.search > input{
+    visibility: false;
+    height: 30px;
+    padding: 2px;
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    border-radius: 999px;
+}
+.Nav_logo{
+    width: fit-content;
+    height: 60px;
+    padding-left: 10px;
+}
+.right{
+    display: flex;
+    align-content: center;
+    padding-right: 10px;
+}
+
+.right >p{
+    font-weight: 500;
+}
+
+.search_icon :hover{
+    cursor: pointer;
+}
+
+.text-container {
+    position: relative;
+  }
+  .text-container:hover .hover-text {
+    display: block;
+  }
+  .hover-text {
+    display: none;
+    position: absolute;
+    top: 100%;
+    right: -50px;
+  }
+
+  .profilee{
+    background-color: white;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+  }
+
+  .My_booking{
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: black;
+    padding: 1px 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+  }
+  .profilee > button{
+    width: 150px;
+  }
+  @media (max-width: 520px){
+.search,.search_bar{
+  display: none;
+}
+
+}
+
+
+.search_bar{
+  position: absolute;
+  background-color: white;
+  top: 75px;
+  left: 30%;
+  width: 35%;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  text-align: center;
+  height: 350px;
+  overflow-y: scroll;
+}
+
+.search_bar::-webkit-scrollbar{
+  display: none;
+}

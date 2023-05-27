@@ -1,0 +1,31 @@
+.footer{
+    padding: 50px;
+    border-top: 1px solid lightgray;
+    text-align: center;
+}
+.icons{
+    margin: 20px auto;
+}
+.iconss{
+    margin:auto 20px;
+}
+.iconss:hover{
+    color: gray;
+    cursor: pointer;
+}
+ .navs{
+    margin-bottom: 20px;
+}
+.navItems{
+    text-decoration: none;
+    margin:30px;
+    color: gray;
+} 
+a:hover{
+    text-decoration: none;
+    color: black;
+}
+.tribute{
+    font-weight: bold;
+    margin-top: 20px;
+}

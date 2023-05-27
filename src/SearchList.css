@@ -1,0 +1,35 @@
+.all{
+    cursor: pointer;
+    position: relative;
+    margin: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+}
+.List{
+    display: flex;
+}
+.list_img > img{
+    height: 50px;
+    width: 75px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.list_name{
+    text-align: left;
+}
+.list_name > p{
+    margin: 0;
+    padding: 0;
+}
+.list_name >h5{
+    margin-bottom: 3px;
+}
+.list_price{
+    position: relative;
+    display: flex;
+    align-items: center;
+}

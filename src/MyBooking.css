@@ -1,0 +1,39 @@
+.MyBooking_Buttons{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.MyBookings{
+    border: 1px solid grey;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    padding: 10px 15px ;
+
+}
+.MyHotels{
+    border: 1px solid grey;
+    border-left: none;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 10px 15px ;
+}
+
+.MyBookings:hover,.MyHotels:hover{
+    cursor: pointer;
+}
+.MyBookings:active,.MyHotels:active{
+    cursor: pointer;
+    color: white;
+    background-color: #EA5455;
+}
+
+
+.Nothing{
+    font-size: large;
+    margin: 250px auto;
+    display: flex;
+    justify-content:center ;
+
+}

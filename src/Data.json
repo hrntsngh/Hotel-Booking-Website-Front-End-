@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "src":"https://a0.muscache.com/im/pictures/c7d80ba3-78c2-49c4-a6ff-14cd4cb8efdb.jpg?im_w=960",
+        "imgs":[{
+            "url":"https://a0.muscache.com/im/pictures/miso/Hosting-48004394/original/c0769d10-491d-439a-a841-ac40d3413e50.jpeg?im_w=1200"
+        },
+        {
+            "url":"https://a0.muscache.com/im/pictures/c7d80ba3-78c2-49c4-a6ff-14cd4cb8efdb.jpg?im_w=960"
+        },
+        {
+            "url":"https://a0.muscache.com/im/pictures/miso/Hosting-48004394/original/1606d410-56a6-4fcc-9da7-89c7a6600941.jpeg?im_w=1200"
+        }
+        ],
+        "hotelname":"Hotel Gandharva",
+        "city":"Mohali",
+        "address":"Mohali, Chandigarh",
+        "description":"Get the celebrity treatment with world-class service at Best Western Plus Chandigarh Mohali.You're eligible for a Genius discount at Best Western Plus Chandigarh Mohali! To save at this property, all you have to do is sign in.Best Western Plus Chandigarh Mohali features an outdoor swimming pool, fitness centre, a restaurant and bar in Mohali. This 5-star hotel offers room service and a 24-hour front desk. Guests can have a drink at the snack bar.Breakfast is available every morning, and includes buffet, continental and Full English/Irish options.Rock Garden is 15 km from the hotel, while Mohali Cricket Stadium is 7.1 km away. The nearest airport is Chandigarh, 11 km from Best Western Plus Chandigarh Mohali, and the property offers a paid airport shuttle service.Couples particularly like the location — they rated it 9.1 for a two-person trip." ,
+        "price":"13000",
+        "StartDate":"30/3/2023",
+        "EndDate":"5/4/2023"
+    },
+    {
+        "id":2,
+        "src":"https://thespaces.com/wp-content/uploads/2017/08/Courtesy-of-Airbnb.jpg",
+        "title":"Penthouse in London",
+        "description":"Enjoy the amazing sights of London with this stunning penthouse",
+        "price":"10000"
+    },
+    {
+        "id":3,
+        "src":"https://media.nomadicmatt.com/2018/apartment.jpg",
+        "title":"1 Bedroom apartment",
+        "description":"Superhost with great amenities and a fabolous shopping complex nearby",
+        "price":"5000"
+    },
+    {
+        "id":4,
+        "src":"https://media.nomadicmatt.com/2018/apartment.jpg",
+        "title":"1 Bedroom apartment",
+        "description":"Superhost with great amenities and a fabolous shopping complex nearby",
+        "price":"7000"
+    }
+]
